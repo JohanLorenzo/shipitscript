@@ -11,5 +11,7 @@
         "username": "shipit-scriptworker-stage",
         "password": {"$eval": "SHIPIT_API_PASSWORD"}
     }
-  }
+  },
+  "sign_chain_of_trust": false,
+  "verify_cot_signature": false
 }
